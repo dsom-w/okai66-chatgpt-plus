@@ -53,16 +53,9 @@
 
 不想看表格，也可以顺着这张图走一遍：
 
-```mermaid
-flowchart TD
-    A["想开通 ChatGPT Plus"] --> B{"有海外银行发行的信用卡？"}
-    B -- 有 --> C["路线一：官网直接订阅"]
-    B -- 没有 --> D{"有 iPhone，愿意用美区 Apple ID？"}
-    D -- 愿意折腾 --> E["路线三：iOS 内购 + 美区礼品卡"]
-    D -- 不想折腾 --> F["路线四：支付宝 / 微信充值到本人账号"]
-    B -. 只有国内卡 .-> G["别在官网反复试"]
-    G --> D
-```
+<p align="center">
+  <img src="images/which-route.png" alt="30 秒判断该走哪条路线：有海外信用卡走官网，有 iPhone 走 iOS 内购，否则用支付宝微信充值到本人账号" width="760">
+</p>
 
 <p align="right"><a href="#目录">↑ 回到目录</a></p>
 
